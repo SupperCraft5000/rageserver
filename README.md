@@ -6,6 +6,8 @@ All about this server you can read at:
 https://rage.mp/forums/topic/1559-open-source-role-play-server/
 
 
+# NOTE! all mysql queries here is unsecure! Read sMailer.js for more info
+
 # Installation guide:
 1. Install Ragemp server.
 2. Put all files in your project.
@@ -16,6 +18,7 @@ https://rage.mp/forums/topic/1559-open-source-role-play-server/
    see https://nodemailer.com/usage/)   
 6. Modify files in `app` directory (if you need).
 7. Do `npm run build` by cmd in main directory (BESURE DO THIS every time after some improvements in 'app' directory).
+    or `npm run watch` for watching for changes and autorebuild
 8. Start a server
 
 THEN ENJOY.
